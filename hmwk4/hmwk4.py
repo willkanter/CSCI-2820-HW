@@ -8,7 +8,7 @@ from numpy import linalg as LA
 # Reading in our csv file
 df = pd.read_csv(sys.argv[1], header=None)
 
-# Set k equal to the second command line argument, the basis of k-means.
+# Set k equal to the second command line argument, the basis of k-means functions.
 k = int(sys.argv[2])
 
 # Create an array that will correspond to df's index with it's k grouping (0-k)
